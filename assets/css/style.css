@@ -405,3 +405,39 @@ a, a:hover {
   align-items: center;
   justify-content: center;
 }
+
+
+.offcanvas{
+  background: linear-gradient(to bottom right, #aa70e0, #7059e2);
+}
+.offcanvas .menu-bar li{
+   width: 100%;
+   padding: 0;
+   border: 0;
+   font-weight: 500;
+   text-transform: uppercase; 
+   background-color: transparent;
+   padding: 6px 10px;
+   border-radius: 4px !important;
+}
+.offcanvas .menu-bar li.active, .offcanvas .menu-bar li:hover{
+  border: 0;
+  background-color: #fff;
+}
+.offcanvas .menu-bar li.active a, .offcanvas .menu-bar li:hover a{
+  color: #aa70e0;
+
+}
+.offcanvas .menu-bar li a{
+  color: #fff;
+  font-size: 16px;
+}
+.offcanvas {
+  max-width: 300px;
+}
+.offcanvas .menu-bar {
+  gap: 5px;
+}
+.offcanvas .btn-close{
+  filter: brightness(0) invert(1);
+}
