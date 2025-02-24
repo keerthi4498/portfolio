@@ -198,10 +198,10 @@ header {
   border-radius: 18px;
   width: 100%;
   padding: 30px;
-  cursor: pointer;
+  cursor: default;
 }
 .contact-block:hover {
-  cursor: pointer;
+  cursor: default;
 }
 .contact-block .contact-info span:first-child {
   font-weight: bold;
